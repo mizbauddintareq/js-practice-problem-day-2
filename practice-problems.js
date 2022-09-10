@@ -46,6 +46,16 @@ if (num1 > num2 && num3) {
 var side1 = 9;
 var side2 = 8;
 var side3 = 9;
-if (side1 == side2 || side1 == side3) {
-  console.log("This Two side are equal");
+if (side1 == side2) {
+  console.log("Side1 and Side2 are equals");
+} else if (side1 == side3) {
+  console.log("Side1 and Side3 are equals");
+} else if (side2 == side1) {
+  console.log("Side2 and Side1 are equals");
+} else if (side2 == side3) {
+  console.log("Side2 and Side3 are equals");
+} else if (side3 == side1) {
+  console.log("Side3 and Side1 are equals");
+} else if (side3 == side2) {
+  console.log("Side3 and Side2 are equals");
 }
